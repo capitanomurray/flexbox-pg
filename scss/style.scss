@@ -4,8 +4,9 @@ $font-stack: Montserrat, sans-serif;
 $primary-color: #333;
 $green-color: #51bb7b;
 $purple-color: #693f7e;
-$grey-color: #f9f9f9;
+$nearlywhite-color: #f9f9f9;
 $blue-color: #50c6db;
+$grey-color: #9f9c9c;
 
 * {
     margin: 0;
@@ -106,7 +107,7 @@ header {
   padding: 20px;
   margin-right: 60px;
   border-top: 3px solid $purple-color;
-  background-color: $grey-color;
+  background-color: $nearlywhite-color;
 
   ul {
     list-style: none;
@@ -116,6 +117,23 @@ header {
     li {
       padding: .25em 0;
     }
+  }
+}
+
+/* Footer */
+
+footer {
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 60px;
+  padding: 20px 0;
+  background-color: #9f9c9c;
+
+  p {
+    color: #434344;
+    font-size: 12px;
+    padding: 10px;
   }
 
 }

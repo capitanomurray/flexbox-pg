@@ -81,3 +81,16 @@ header {
     font-size: .75em; }
     .sidebar ul li {
       padding: .25em 0; }
+
+/* Footer */
+footer {
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 60px;
+  padding: 20px 0;
+  background-color: #9f9c9c; }
+  footer p {
+    color: #434344;
+    font-size: 12px;
+    padding: 10px; }
