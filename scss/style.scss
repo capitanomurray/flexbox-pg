@@ -5,6 +5,7 @@ $primary-color: #333;
 $green-color: #51bb7b;
 $purple-color: #693f7e;
 $grey-color: #f9f9f9;
+$blue-color: #50c6db;
 
 * {
     margin: 0;
@@ -82,6 +83,21 @@ header {
 
 .main {
   flex: 3;
+
+  h2 {
+    font-size: 32px;
+    margin: 1rem 0;
+    color: $blue-color;
+  }
+
+  p {
+    font-size: 1rem;
+    margin-bottom: .75rem;
+  }
+
+  img {
+    width: 100%;
+  }
 }
 
 /* Sidebar */
